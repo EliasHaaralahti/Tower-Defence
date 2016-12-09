@@ -50,7 +50,6 @@ namespace TowerDefenceGame
 
         #region Images/Textures
         //My textures
-<<<<<<< HEAD
         readonly Image textureTurret = LoadImage("Turret");
         readonly Image textureTank = LoadImage("Tank");
         readonly Image textureLightTank = LoadImage("LightTank");
@@ -61,18 +60,6 @@ namespace TowerDefenceGame
         readonly Image textureSand = LoadImage("Sand");
         readonly Image textureGrass = LoadImage("Grass");
         readonly Image textureTurretFloor = LoadImage("TurretFloor");
-=======
-        Image textureTurret = LoadImage("Turret");
-        Image textureTank = LoadImage("Tank");
-        Image textureLightTank = LoadImage("LightTank");
-        Image textureFastTank = LoadImage("FastTank");
-        Image textureUI = LoadImage("UI_background");
-
-        //Other textures (Free from opengameart.org/textures)
-        Image textureSand = LoadImage("Sand");
-        Image textureGrass = LoadImage("Grass");
-        Image textureTurretFloor = LoadImage("TurretFloor");
->>>>>>> 1f349f9f915a1e15de5a90e7d8f236b02fdabdde
         #endregion
 
         ///<summary>
