@@ -1,0 +1,24 @@
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.csprojResolveAssemblyReference.cache
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\bin\x86\Debug\TowerDefence.exe
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\bin\x86\Debug\TowerDefence.pdb
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\bin\x86\Debug\Jypeli.dll
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\bin\x86\Debug\Jypeli.xml
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.exe
+C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.pdb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\TowerDefence.exe
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\TowerDefence.pdb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Jypeli.dll
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Jypeli.xml
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.csprojResolveAssemblyReference.cache
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.exe
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\obj\x86\Debug\TowerDefence.pdb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\grass.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\turret.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\sand.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\tank.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\TurretFloor.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\LightTank.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\FastTank.xnb
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\UI_background.xnb

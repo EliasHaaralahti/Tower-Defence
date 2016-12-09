@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>turret.png</Source>
+      <Name>turret</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\turret.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tank.png</Source>
+      <Name>tank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\tank.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Sand.jpg</Source>
+      <Name>Sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Sand.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Grass.png</Source>
+      <Name>Grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Grass.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>TurretFloor.jpg</Source>
+      <Name>TurretFloor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\TurretFloor.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>LightTank.png</Source>
+      <Name>LightTank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\LightTank.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FastTank.png</Source>
+      <Name>FastTank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\FastTank.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <Item>
+      <Source>UI_background.png</Source>
+      <Name>UI_background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\UI_background.xnb</Output>
+      <Time>2016-12-09T06:26:08+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3A1AFC84-3976-4868-8FD5-3F926AE6098E}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefenceContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Jypeli\lib\ContentExtensions\TextFileContentExtension.dll</Key>
+        <Value>2016-03-29T10:06:40+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Jypeli\lib\ContentExtensions\AnimationExtension.dll</Key>
+        <Value>2016-03-29T10:06:38+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-09-26T19:20:50.450645+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
