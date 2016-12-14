@@ -7,7 +7,7 @@ using TowerDefence;
 
 /// <summary>
 /// @Author: Elias Haaralahti
-/// Version: 9.12.2016
+/// Version: 15.12.2016
 /// </summary>
 
 namespace TowerDefenceGame
@@ -146,7 +146,8 @@ namespace TowerDefenceGame
             spawnTimer = new Timer();
             spawnTimer.Interval = spawnRate; //How often we spawn units
             //Calls functions required for spawning a new enemy.
-            spawnTimer.Timeout += delegate { levelHandler.SpawnUnit(this); };
+            Vector spawnPosition = new Vector(19, -1);
+            spawnTimer.Timeout += delegate { levelHandler.SpawnUnit(this, (int)spawnPosition.X, (int)spawnPosition.Y); };
             spawnTimer.Start();
 
             //Update timer
@@ -287,15 +288,15 @@ namespace TowerDefenceGame
         /// </summary>
         private void Updater()
         {
-            //Check enemy positions for nearby turrets
-            foreach (Enemy enemy in enemies)
+            //Check turrets for nearby enemies
+            foreach(Turret turret in turrets)
             {
-                foreach (Turret turret in turrets)
+                if (turret.isLoaded) //No point in checking for enemies if turret isn't loaded
                 {
-                    if (turret.isLoaded)
+                    foreach(Enemy enemy in enemies)
                     {
-                        //If distance between turret and enemy is smaller than D*D !!! - (x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)) < d*2 - !!!
-                        if ((turret.X - enemy.X) * (turret.X - enemy.X) + (turret.Y - enemy.Y) * (turret.Y - enemy.Y) <= turret.range*turret.range) 
+                        //If distance between turret and enemy is smaller than range.  - (x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)) < d*d - 
+                        if ((turret.X - enemy.X) * (turret.X - enemy.X) + (turret.Y - enemy.Y) * (turret.Y - enemy.Y) <= turret.range * turret.range)
                         {
                             Shoot(turret, enemy);
                             break; //Without break turret fires at all enemies in range
@@ -367,7 +368,7 @@ namespace TowerDefenceGame
                 Enemy enemyObj = (Enemy)enemy;
                 Projectile projectile = (Projectile)missile;
                 missile.Destroy();
-                if (enemyObj.health > projectile.damage) //Temp missile dmg   
+                if (enemyObj.health > projectile.damage)
                     enemyObj.health -= projectile.damage;
                 else
                 {

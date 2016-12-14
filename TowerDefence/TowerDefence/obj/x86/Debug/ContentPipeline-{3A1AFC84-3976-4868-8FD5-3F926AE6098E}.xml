@@ -2,31 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>turret.png</Source>
-      <Name>turret</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\turret.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
-    </Item>
-    <Item>
-      <Source>tank.png</Source>
-      <Name>tank</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\tank.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
-    </Item>
-    <Item>
       <Source>Sand.jpg</Source>
       <Name>Sand</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Sand.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T14:27:06.6492579+02:00</Time>
     </Item>
     <Item>
       <Source>Grass.png</Source>
@@ -35,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Grass.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T14:37:40.2465597+02:00</Time>
     </Item>
     <Item>
       <Source>TurretFloor.jpg</Source>
@@ -44,7 +26,25 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\TurretFloor.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T14:42:43.2812623+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Turret.png</Source>
+      <Name>Turret</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Turret.xnb</Output>
+      <Time>2016-12-08T15:37:49.342519+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Tank.png</Source>
+      <Name>Tank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\Tank.xnb</Output>
+      <Time>2016-12-08T16:17:23.1307339+02:00</Time>
     </Item>
     <Item>
       <Source>LightTank.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\LightTank.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T16:52:09.4820856+02:00</Time>
     </Item>
     <Item>
       <Source>FastTank.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\FastTank.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T17:11:33.0448231+02:00</Time>
     </Item>
     <Item>
       <Source>UI_background.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefence\bin\x86\Debug\Content\UI_background.xnb</Output>
-      <Time>2016-12-09T06:26:08+02:00</Time>
+      <Time>2016-12-08T17:49:33.7911201+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

@@ -9,8 +9,8 @@ namespace TowerDefenceGame
     {
         public BasicEnemy(double leveys, double korkeus): base(leveys, korkeus)
         {
-            health = 70;
-            speed = 1.1;
+            health = 130;
+            speed = 1.15;
         }
     }
 }

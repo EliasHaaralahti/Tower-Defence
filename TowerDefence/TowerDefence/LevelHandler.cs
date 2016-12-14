@@ -33,7 +33,7 @@ namespace TowerDefenceGame
         ///</summary>
         public LevelHandler()
         {
-            spawnAmount = 10;
+            spawnAmount = 11;
             level = 1;
             enemyCounter = 0;
             levelChanged = false;
@@ -43,7 +43,9 @@ namespace TowerDefenceGame
         /// Determines which unit will be spawned and spawns it.
         /// </summary>
         /// <param name="game">Game</param>
-        public void SpawnUnit(Game game)
+        /// <param name="x">X position</param>
+        /// <param name="y">Y position</param>
+        public void SpawnUnit(Game game, int x, int y)
         {
             if (!levelChanged)
             {
@@ -53,9 +55,9 @@ namespace TowerDefenceGame
                     int randomValue = RandomGen.NextInt(0, 10);
                     Enemy enemy = null;
                     //19, -1 = temp spawn pos
-                    if (randomValue == 6 || randomValue == 7) enemy = SpawnFastEnemy(game, 19, -1);
-                    else if (randomValue == 4 || randomValue == 2) enemy = SpawnTankEnemy(game, 19, -1);
-                    else enemy = SpawnBasicEnemy(game, 19, -1);
+                    if (randomValue == 6 || randomValue == 7) enemy = SpawnFastEnemy(game, x, y);
+                    else if (randomValue == 4 || randomValue == 2) enemy = SpawnTankEnemy(game, x ,y);
+                    else enemy = SpawnBasicEnemy(game, x, y);
                     //Increase hp for each level
                     enemy.health += (int)(level * 2.2);
                     OnEnemySpawned(enemy); //Event
@@ -84,8 +86,11 @@ namespace TowerDefenceGame
             enemyCounter = 0;
             spawnAmount += 2;
             level++;
-            if (level % 3 == 0)
+            if (level % 2 == 0)
+            {
                 spawnAmount += 3;
+                if (level >= 10) spawnAmount+=2;
+            }
         }
 
         /// <summary>
@@ -124,7 +129,7 @@ namespace TowerDefenceGame
         /// <returns>Spawned object</returns>
         private FastEnemy SpawnFastEnemy(Game game, int x, int y)
         {
-            FastEnemy enemy = new FastEnemy(0.35, 0.55);
+            FastEnemy enemy = new FastEnemy(0.3, 0.5);
             enemy.X = x; enemy.Y = y;
             enemy.Color = Color.Red;
             enemy.CollisionIgnoreGroup = 1;
