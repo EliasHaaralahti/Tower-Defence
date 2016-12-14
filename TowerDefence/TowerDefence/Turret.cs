@@ -15,7 +15,7 @@ namespace TowerDefenceGame
         public Turret(double leveys, double korkeus) : base(leveys, korkeus) //leveys & korkeus = width & height, part of Jypeli.
         {
             fireRate = 3;
-            range = 4;
+            range = 5;
             projectileSpeed = 250;
             isLoaded = true;
             CollisionIgnoreGroup = 2;

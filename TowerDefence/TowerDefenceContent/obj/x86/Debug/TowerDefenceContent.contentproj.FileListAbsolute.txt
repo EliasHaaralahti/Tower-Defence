@@ -1,2 +1,3 @@
 C:\Users\Elias\documents\visual studio 2015\Projects\TowerDefence\TowerDefence\TowerDefenceContent\obj\x86\Debug\TowerDefenceContent.contentprojResolveAssemblyReference.cache
 C:\Users\Elias\Desktop\Dev\C#\VS Projects\Tower-Defence\TowerDefence\TowerDefenceContent\obj\x86\Debug\TowerDefenceContent.contentprojResolveAssemblyReference.cache
+C:\Users\Elias\Desktop\Dev\C#\VS Projects\Harjoitustyö\TowerDefence\TowerDefenceContent\obj\x86\Debug\TowerDefenceContent.contentprojResolveAssemblyReference.cache

@@ -9,8 +9,8 @@ namespace TowerDefenceGame
     {
         public TankEnemy(double leveys, double korkeus): base(leveys, korkeus)
         {
-            health = 220;
-            speed =  0.9;
+            health = 286;
+            speed =  1;
         }
     }
 }
