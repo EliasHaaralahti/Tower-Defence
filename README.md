@@ -1,7 +1,5 @@
-Tower Defence!
+### Tower Defence
 
-Very simple C# tower defence game built using Visual studio 2015 and Jypeli(library built on XNA)
-Both Jypeli and XNA are required.
--University project
-
-Under active-developement
+## University programming 1 final project
+* Very simple C# tower defence game built C# and Jypeli(game library built on XNA)
+* Both Jypeli and XNA are required.
